@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ServerTest</string>
+    <string name="send">发送</string>
+    <string name="cancel">取消</string>
+    <string name="jump_next_page">跳到下一个界面吧，不然也看不出效果哦</string>
+    <string name="goon_click">继续点吧</string>
+    <string name="show_error">点一下出个BUG瞧瞧吧</string>
+</resources>
