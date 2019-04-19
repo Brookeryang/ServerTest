@@ -8,8 +8,15 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-import com.bk.soft.servertest.test.MyExceptionHanlder;
-
+/**
+ * <pre>
+ * @author  yyh
+ * @e-mail 1355857303@qq.com
+ * @time  2019/4/19 2:13 PM
+ * @version 1.0
+ * @desc : 类描述 ：调用前必须启动服务
+ * </pre>
+ */
 public class MainActivity extends AppCompatActivity {
     private ImyBinder imyBinder;
     private Intent intent;
@@ -18,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         //注册未caught异常处理器
-        Thread.setDefaultUncaughtExceptionHandler(new MyExceptionHanlder(this));
         setContentView(R.layout.activity_main);
         initViews();
     }
