@@ -15,6 +15,9 @@ import android.view.View;
  * @time  2019/4/19 2:13 PM
  * @version 1.0
  * @desc : 类描述 ：调用前必须启动服务
+ * github使用流程：https://www.cnblogs.com/Im-Victor/p/8991478.html
+ * 自己写好的东西还可以直接推送在gradle使用
+ * https://jitpack.io/
  * </pre>
  */
 public class MainActivity extends AppCompatActivity {
