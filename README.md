@@ -12,4 +12,4 @@ Hello 欢迎到访</br>
   * 英文名：brooker
     * 小名：小猴子  </br>
 我的图片</br>
-![](https://github.com/Brookeryang/ServerTest/app/src/main/res/imag/yyh.png)
+![](https://github.com/Brookeryang/ServerTest/image/yyh.png)
